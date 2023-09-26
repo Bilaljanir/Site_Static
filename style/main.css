@@ -1,5 +1,7 @@
 body{
     background:#EDE6E1;
+    overflow-x: hidden;
+
 }
 
 * {
@@ -15,6 +17,7 @@ html {
     max-width: 90%;
     margin: auto;
 }
+
 
 .flex1 {
     display: flex;
@@ -123,6 +126,7 @@ html {
     line-height: 216.523%;
     letter-spacing: 0.4275rem;
     color: #303030;
+    margin-bottom: 50px;
 }
 
 .collection h1::before,
@@ -147,28 +151,48 @@ html {
     transform: translateX(100%);
 }
 
-.collection {
-    text-align: center;
-    padding: 40px 0;
-}
-
 .grid-item {
-    display: flex;
+    display: grid;
     justify-content: center;
-    margin: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin: 0 auto;
+    max-width: 793px;
+    align-items: start;
 }
 
 .grid-item img {
-    max-width: 100%;
-    margin-right: 100px;
+    max-width: 793px;
+    height: 100%;
 }
+@media (max-width: 1225px).grid-item {
+
+    width: 476px;
+    height: 1318px;
+                                  }
+
+@media(max-width: 1225px) { #Image2,#Image4,#Image6 {
+
+    width: 547px;
+    height: 225px;
+}
+}
+@media(max-width: 1225px) { #Image3,#Image5,#Image7 {
+
+    width: 215px;
+    height: 225px;
+}
+}
+
 
 .button-container {
     width: 100%;
     text-align: center;
 }
 
+
 button {
+    margin-top: 100px;
     background-color: #303030;
     color: white;
     padding: 10px 10px;
@@ -179,6 +203,7 @@ button {
 button:hover {
     background-color: #555;
 }
+
 .blog h2 {
     display: inline-block;
     padding: 0 20px;
@@ -222,13 +247,25 @@ button:hover {
 .blog div {
     position: relative;
 }
-.slideshow{
 
+.slideshow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
     margin-top: 77px;
 }
+
 .slideshow img {
-    margin-bottom:50px;
-    margin-right: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .slideshow {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
 }
 
 
