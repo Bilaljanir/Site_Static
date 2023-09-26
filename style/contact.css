@@ -1,0 +1,373 @@
+
+body {
+    background: #EDE6E1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    height: 100vh;
+}
+    .contact-us {
+        color: #000000;
+        text-align: left;
+        font: 400 64px/145% "Marcellus SC", sans-serif;
+        position: absolute;
+        left: calc(50% - 167px);
+        top: 58px;
+    }
+    .carte {
+        width: 520px;
+        height: 360px;
+        position: absolute;
+        left: 843px;
+        top: 389px;
+    }
+    .rectangle-3702 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 73px;
+        top: 389px;
+    }
+.rectangle-3710 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 423px;
+        top: 389px;
+    }
+    .formulaire {
+        color: #000000;
+        text-align: left;
+        font: 700 20px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 302px;
+        top: 279px;
+        width: 214px;
+        height: 64px;
+    }
+    .titre {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 79px;
+        top: 367px;
+        width: 87px;
+        height: 24px;
+    }
+    .rectangle-3712 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 423px;
+        top: 472px;
+    }
+    .sujet {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 423px;
+        top: 449px;
+        width: 87px;
+        height: 24px;
+    }
+    .rectangle-3711 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 73px;
+        top: 472px;
+    }
+    .rectangle-3713 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 631px;
+        height: 27px;
+        position: absolute;
+        left: 73px;
+        top: 555px;
+    }
+    .nom {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 79px;
+        top: 449px;
+        width: 87px;
+        height: 24px;
+    }
+    .rectangle-3715 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 73px;
+        top: 722px;
+    }
+    .pays-r-gion {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 73px;
+        top: 697px;
+        width: 120px;
+        height: 24px;
+    }
+    .rectangle-3716 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 281px;
+        height: 27px;
+        position: absolute;
+        left: 423px;
+        top: 722px;
+    }
+    .t-l-phone {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 423px;
+        top: 697px;
+        width: 120px;
+        height: 24px;
+    }
+    .email {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 79px;
+        top: 533px;
+        width: 87px;
+        height: 24px;
+    }
+    .rectangle-3714 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 631px;
+        height: 27px;
+        position: absolute;
+        left: 73px;
+        top: 637px;
+    }
+    .adresse {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 79px;
+        top: 615px;
+        width: 87px;
+        height: 24px;
+    }
+    .pr-nom {
+        color: rgba(0, 0, 0, 0.9);
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 423px;
+        top: 367px;
+        width: 87px;
+        height: 24px;
+    }
+    .choisissez-un-hotel {
+        color: #000000;
+        text-align: left;
+        font: 400 italic 15px/145% "Lora", sans-serif;
+        position: absolute;
+        left: 73px;
+        top: 783px;
+        width: 230px;
+        height: 16px;
+    }
+    .rectangle-3718 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 88px;
+        top: 834px;
+    }
+    .rectangle-3719 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 88px;
+        top: 1013px;
+    }
+    .rectangle-3720 {
+        background: #ffffff;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 1px;
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        left: 88px;
+        top: 924px;
+    }
+    .belle-mare-maurice {
+        color: #000000;
+        text-align: center;
+        font: 400 italic 18px/216.52% "Sitara", sans-serif;
+        position: absolute;
+        left: 163px;
+        top: 832px;
+        width: 187px;
+        height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .south-ari-atoll-maldives {
+        color: #000000;
+        text-align: center;
+        font: 400 italic 18px/216.52% "Sitara", sans-serif;
+        position: absolute;
+        left: 148px;
+        top: 927px;
+        width: 266px;
+        height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .le-de-la-r-union {
+        color: #000000;
+        text-align: center;
+        font: 400 italic 18px/216.52% "Sitara", sans-serif;
+        position: absolute;
+        left: 154px;
+        top: 1016px;
+        width: 187px;
+        height: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rectangle-3721 {
+        position: absolute;
+        left: 82px;
+        top: 1111px;
+        overflow: visible;
+    }
+    .envoyer {
+        color: #000000;
+        text-align: center;
+        font: 400 30px/145% "Lohit Devanagari", sans-serif;
+        position: absolute;
+        left: 82px;
+        top: 1111px;
+        width: 180px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .rectangle-3701 {
+        position: absolute;
+        left: 4px;
+        top: 1455px;
+        overflow: visible;
+    }
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 30px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #ffd700;
+}
+
+.social-icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    margin-right: 20px;
+}
+
+.social-icons img {
+    width: 32px;
+    height: 32px;
+}
