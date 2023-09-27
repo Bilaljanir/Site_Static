@@ -3,70 +3,68 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.contact .div {
+.container {
     background-color: #ede6e1;
     overflow: hidden;
-    width: 1440px;
-    height: 1954px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
     position: relative;
 }
-.contact .text-wrapper {
-    position: absolute;
-    top: 57px;
-    left: 553px;
-    text-align: center;
+
+.text-wrapper {
     font-family: "Marcellus SC-Regular", Helvetica;
     font-weight: 400;
     color: #000000;
     font-size: 64px;
-    letter-spacing: 0;
-    line-height: 92.8px;
-    white-space: nowrap;
+    text-align: center;
 }
 
-
-.ifram {
-    position: absolute;
-    width: 520px;
-    height: 360px;
-    top: 389px;
-    left: 843px;
-    object-fit: cover;
+.iframe {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
 }
 
-.contact .overlap {
-    position: absolute;
-    width: 281px;
-    height: 50px;
-    top: 366px;
-    left: 73px;
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.titre input {
-    position: absolute;
-    width: 281px;
-    height: 27px;
-    top: 23px;
-    left: 0;
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
     background-color: #ffffff;
-    border: 1px solid;
-    border-color: #000000;
 }
 
-.contact .text-wrapper-2 {
-    position: absolute;
-    width: 87px;
-    top: 0;
-    left: 6px;
-    font-family: "Lora-Italic", Helvetica;
-    font-weight: 400;
-    font-style: italic;
-    color: #000000e6;
-    font-size: 15px;
-    letter-spacing: 0.38px;
-    line-height: 21.8px;
-    white-space: nowrap;
+button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
 }
