@@ -16,7 +16,7 @@ body{
     font-size: 80px;
     font-family: Italianno, serif;
     color: white;
-    animation: fadeIn 2s ease-in-out; /* Add your desired animation here */
+    animation: fadeIn 2s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -241,6 +241,26 @@ header hr {
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 10px;
+}
+.room-info h3{
+    color: #000000;
+    text-align: left;
+    font: 300 18px/216.52% "Akshar", sans-serif;
+    position: relative;
+}
+.room-info p1{
+    color: #000000;
+    text-align: left;
+    font: 300 18px/216.52% "Akshar", sans-serif;
+    position: relative;
+}
+.room-info p2 {
+    color: #000000;
+    text-align: left;
+    font: 400 18px/216.52% "Itim", sans-serif;
+    position: relative;
+    top: 0;
+    display: block;
 }
 
 

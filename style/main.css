@@ -242,6 +242,7 @@ button:hover {
 .blog{
     text-align: center;
     padding: 40px 0;
+    margin-bottom: 20px;
 }
 
 .blog div {
@@ -251,7 +252,6 @@ button:hover {
 .slideshow {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 40px;
     justify-items: center;
     margin-top: 77px;
 }
