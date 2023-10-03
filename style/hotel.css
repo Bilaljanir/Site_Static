@@ -134,6 +134,7 @@ header hr {
     position: relative;
 }
 .collection p {
+    padding: 60px;
     text-align: center;
     font-size: 18px;
     font-style: normal;
