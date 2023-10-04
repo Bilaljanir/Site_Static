@@ -132,7 +132,7 @@ select {
     outline: none;
     -moz-appearance: none;
     -webkit-appearance: none;
-}
+    width: 90%;}
 
 select::before {
     content: '';
