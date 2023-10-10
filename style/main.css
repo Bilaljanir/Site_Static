@@ -1,5 +1,6 @@
-body {
+body{
     overflow-x: hidden;
+
 }
 
 * {
@@ -11,20 +12,35 @@ body {
 html {
     scroll-behavior: smooth;
 }
-
 .container {
     max-width: 90%;
     margin: auto;
 }
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
 
-.header-image {
+.header-video {
     position: relative;
     width: 100%;
     height: 100vh;
     overflow: hidden;
 }
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    font-family: Italianno, serif;
+    color: white;
+    animation: fadeIn 2s ease-in-out;
+}
 
-.header-image img {
+#video-background {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,6 +49,7 @@ html {
     object-fit: cover;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 header .container_content {
     background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
@@ -47,9 +64,8 @@ header ul {
     position: relative;
     display: flex;
 }
-
 header ul li {
-    padding-left: 47px;
+    padding-left: 40px;
     text-align: center;
     list-style: none;
     line-height: 50px;
@@ -73,6 +89,8 @@ header hr {
     margin-top: 20px;
     width: 100%;
 }
+
+
 
 .collection {
     text-align: center;
@@ -159,10 +177,6 @@ header hr {
         padding: 10px;
         font-size: 14px;
         margin-top: 10px;
-    }
-    .collection h1 {
-        font-size: 1rem;
-        letter-spacing: 0.2rem;
     }
 }
 
@@ -323,14 +337,6 @@ ul li a:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
-        .collection h1 {
-            font-size: 10px;
-            letter-spacing: 0.2rem;
-            padding: 10px;
-
-    }
-}
 
 @media screen and (max-width: 768px) {
     header nav {
@@ -376,4 +382,32 @@ ul li a:hover {
         margin-bottom: 15px;
     }
 
+}
+@media screen and (max-width: 768px) {
+    .collection h1 {
+        font-size: 10px;
+        letter-spacing: 0.2rem;
+        padding: 10px;
+    }
+
+    .collection h1::before,
+    .collection h1::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 1px;
+        position: absolute;
+        background: #d9d9d6;
+        top: 50%;
+    }
+
+    .collection h1::before {
+        left: 0;
+        transform: translateX(-100%);
+    }
+
+    .collection h1::after {
+        right: 0;
+        transform: translateX(100%);
+    }
 }
