@@ -1,3 +1,4 @@
+/* CSS de base */
 body {
     overflow-x: hidden;
 }
@@ -33,35 +34,28 @@ html {
     object-fit: cover;
     background-color: rgba(0, 0, 0, 0.5);
 }
-@keyframes fade-in {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-
 header .container_content {
     background-color: rgba(0, 0, 0, 0.4);
     height: 100vh;
 }
+
 header nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 header ul {
     position: relative;
     display: flex;
 }
+
 header ul li {
     padding-left: 47px;
     text-align: center;
     list-style: none;
     line-height: 50px;
 }
+
 header ul li a {
     color: #D0D3D4;
     font-size: 15px;
@@ -70,9 +64,11 @@ header ul li a {
     font-family: sans-serif;
     letter-spacing: 2px;
 }
+
 header ul li a:hover {
     color: #ffffff;
 }
+
 header hr {
     opacity: 0.2;
     margin-top: 20px;
@@ -83,6 +79,11 @@ header hr {
     text-align: center;
     padding: 40px 0;
 }
+
+.collection div {
+    position: relative;
+}
+
 .collection p {
     display: flex;
     width: 587px;
@@ -98,11 +99,12 @@ header hr {
     letter-spacing: 2.07px;
     align-items: center;
     margin: 0 auto;
+    max-width: 100%;
 }
+
 .collection h2 {
     display: flex;
-    width: 1316px;
-    height: 172px;
+    width: 100%;
     color: #000;
     text-align: center;
     font-family: Akshar;
@@ -113,9 +115,7 @@ header hr {
     letter-spacing: -0.36px;
     align-items: center;
     margin: 0 auto;
-}
-.collection div {
-    position: relative;
+    max-width: 100%;
 }
 .collection h1 {
     display: inline-block;
@@ -129,6 +129,7 @@ header hr {
     letter-spacing: 0.4275rem;
     color: #303030;
 }
+
 .collection h1::before,
 .collection h1::after {
     content: "";
@@ -139,14 +140,55 @@ header hr {
     background: #d9d9d6;
     top: 50%;
 }
+
 .collection h1::before {
     left: 0;
     transform: translateX(-100%);
 }
+
 .collection h1::after {
     right: 0;
     transform: translateX(100%);
 }
+
+@media screen and (max-width: 768px) {
+    .collection p {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .collection h2 {
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .collection h1 {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+    }
+}
+
+
+.collection h1::before,
+.collection h1::after {
+    content: "";
+    display: block;
+    width: 37%;
+    height: 1px;
+    position: absolute;
+    background: #d9d9d6;
+    top: 50%;
+}
+
+.collection h1::before {
+    left: 0;
+    transform: translateX(-100%);
+}
+
+.collection h1::after {
+    right: 0;
+    transform: translateX(100%);
+}
+
 .collection {
     text-align: center;
     padding: 40px 0;
@@ -163,28 +205,34 @@ header hr {
     padding-bottom: 100px;
     width: 100%;
 }
+
 .card-container {
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
+
 .card-image img {
     max-width: 100%;
     height: auto;
 }
+
 .card-title {
     text-align: left;
     font-family: "Tw Cen W01 Light";
     font-size: 18px;
     margin-top: 30px;
 }
+
 .card-desc p {
     margin-top: 10px;
     text-align: left;
 }
+
 .card-container:last-child {
     margin-top: 65px;
 }
+
 .image-move-down {
     margin-top: 65px;
 }
@@ -194,6 +242,7 @@ footer {
     color: #fff;
     padding: 50px 0;
 }
+
 .footer-content {
     display: flex;
     justify-content: space-between;
@@ -201,69 +250,114 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .footer-section {
     flex: 1;
     margin-right: 30px;
 }
+
 .footer-section h3 {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 ul li {
     margin-bottom: 10px;
 }
+
 ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
 }
+
 ul li a:hover {
     color: #ffd700;
 }
+
 .social-icons {
     display: flex;
     list-style: none;
     padding: 0;
 }
+
 .social-icons li {
     margin-right: 20px;
 }
+
 .social-icons img {
     width: 32px;
     height: 32px;
 }
 
-@media screen and (max-width: 1024px) {
-    .collection p {
-        font-size: 16px;
-    }
-    .collection h2 {
-        font-size: 16px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     header ul {
-        flex-direction: column;
+        flex-direction: row;
+
         align-items: center;
         text-align: center;
     }
+
     header ul li {
         padding-left: 0;
         margin-bottom: 10px;
     }
+
+    header ul li a {
+        font-size: 14px;
+    }
+
     .collection p {
         font-size: 14px;
     }
+
     .collection h2 {
         font-size: 14px;
     }
+
     .reasons-to-go-collection {
         grid-template-columns: 1fr;
     }
 }
 
+@media screen and (max-width: 768px) {
+        .collection h1 {
+            font-size: 10px;
+            letter-spacing: 0.2rem;
+            padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        justify-content: right;
+    }
+
+    header ul {
+        flex-direction: row;
+        gap: 25px;
+        align-items: center;
+        text-align: center;
+    }
+
+    header ul li {
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    header ul li a {
+        font-size: 10px;
+    }
+
+    .collection h1 {
+        font-size: 1rem;
+        letter-spacing: 0.2rem;
+        padding: 10px;
+    }
+}
